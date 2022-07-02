@@ -1,0 +1,195 @@
+.login__main{
+    height: 100vh;
+    width: 100%;
+    background: var(--main-color);
+     /* background-color: aliceblue; */
+    color: white;
+}
+.login__container{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+.log_navbar{
+    height: 80px;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.log_navbar__content{
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+.log_navbar__logo{
+    height: 80px;
+    width: 80px;
+}
+.log_navbar__logo > a{
+    text-decoration: none;
+    color: unset;
+
+}
+.log_navbar__logo > a > img{
+    height: 100%;
+    width: 100%;
+}
+
+.log_navbar__title{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center; 
+    padding: 0 20px;
+}
+.log_navbar__title > p{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.log_navbar__help{
+    height: auto;
+    width: auto;
+    padding: 0 10px;
+}
+.log_navbar__help > p{
+    font-size: 17px;
+    color: rgb(255, 36, 36);
+}
+
+.log__content{
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+.log__content_ctn{
+    height: auto;
+    width: 400px;
+
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+.log__content_ctn--title{
+    height: 50px;
+    width: 100%;
+    background-color: aqua;
+    border-radius: 5px;
+}
+.log__content_ctn--title > p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+.log__content_ctn--ct{
+    height: auto;
+    width: 100%;
+    /* background-color: rgb(142, 142, 255); */
+}
+.log__input{
+    height: auto;
+    width: 100%;
+}
+.log__input > input{
+    height:40px;
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+/* message login ============== */
+.login__message{
+    height: 20px;
+    width: 100%;
+    background-color: aqua;
+    display: none;
+}
+.login__message > p{
+    color: red;
+    font-size: 15px;
+}
+
+/* sigin =============================== */
+.log__input > .sigin_login{
+    display: flex;
+    justify-content: space-between;
+}
+.log__input > .sigin_login button{
+    height: 40px;
+    width: 45%;
+    margin: 15px 0 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(255, 44, 44);
+    color: white;
+    
+}
+.log__input > button:hover{
+    opacity: .8;
+}
+.log__input-more{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.log__input-more > p{
+    padding: 0 10px;
+    font-size: 15px;
+    color: darkblue;
+    cursor: pointer;
+    height: 20px;
+    border-bottom: .5px solid darkblue;
+}
+.log__input-more > p:hover{
+    opacity: .7;
+}
+
+/* ================================================================================================================================================ */
+
+.log__other{
+    height: auto;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.log__other__title{
+    height: 50px;
+    width: 100%;
+}
+.log__other__title > p{
+    text-align: center;
+    line-height: 50px;
+    color: black;
+}
+.log__other__content{
+    height: 100px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.more_login{
+    height: 70px;
+    width: 70px;
+    /* background-color: brown; */
+    cursor: pointer;
+    border-radius: 5px;
+}
+.more_login > a > img{
+    height: 100%;
+    width: 100%;
+}
+

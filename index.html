@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goat Meat</title>
+    <link rel="stylesheet" href="../Font/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../Css/global.css">
+    <link rel="stylesheet" href="../Css/main.css">
+    <link rel="stylesheet" href="../Css/header__footer.css">
+    <link rel="stylesheet" href="../Css/responsive.css">
+    <script src="../Javascript/main.js"></script>
+</head>
+<body>
+    <div class="main">
+
+        <header>
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="">
+                        <img src="./image/logo/logo-meat.png" alt="png">
+                    </a>
+                </div>
+
+                <div class="header__search">
+                    <div class="header__navbar">
+                        <ul>
+                            <li class="header__notification">
+                                <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                <a href="">Thông Báo</a>
+                                <div class="view__navbar">
+                                    <a href="">
+                                        <div class="view__navbar-iteam">
+                                            <div class="view__navbar-iteam__icon">
+                                                <img src="./image/product/img_2.jpg" alt="">
+                                            </div>
+                                            <div class="view__navbar-iteam__text">
+                                                <div class="view__navbar-iteam__text__title">
+                                                    <p>Trong mọi trường hợp khiếu nại, quyết định của Shopee sẽ là quyết định cuối cùng.</p>
+                                                </div>
+                                                <div class="view__navbar-iteam__text__content">
+                                                    <p>
+                                                        Người mua sẽ không thể gửi yêu cầu Trả hàng/Hoàn tiền sau khi bấm nút "Đã nhận được hàng" hoặc quá thời gian quy định. 
+                                                        Xem thêm điều kiện Trả Hàng/Hoàn Tiền Người mua cần thực hiện các bước Trả hàng/Hoàn tiền đúng hạn. 
+                                                        Nếu không, yêu cầu Trả hàng/Hoàn tiền của bạn sẽ bị hủy tự động/được xử lý theo quy định của Shopee 
+                                                        Shopee sẽ cập nhật tình trạng Trả hàng/Hoàn tiền thường xuyên. 
+                                                        Tham khảo hướng dẫn chi tiết Shopee khuyến khích Người mua và Người bán liên hệ trao đổi với nhau 
+                                                        về các phát sinh liên quan đến đơn hàng để nhận được giải quyết nhanh chóng và hiệu quả nhất 
+                                                        Shopee chưa hỗ trợ các yêu cầu Trả hàng/Hoàn tiền thuộc về cảm quan/không ưng ý/thay đổi quyết định mua hàng 
+                                                        Trong mọi trường hợp khiếu nại, quyết định của Shopee sẽ là quyết định cuối cùng.
+                                                    </p>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                            </li>
+                            <li>
+                                <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                                <a href="">Hỗ Trợ</a>
+                            </li>
+                            <li class="selectLenguage">
+                                <i class="fa fa-language" aria-hidden="true"></i>
+                                <a href="">Ngôn Ngữ</a>
+
+                                <div class="chooseLenguage">
+                                    <div class="vietnamese lenguage">
+                                        <p>Việt Nam</p>
+                                    </div>
+                                    <div class="english lenguage">
+                                        <p>English</p>
+                                    </div>
+                                </div>
+
+                            </li>
+                            <li>
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                <a href="./login.html">Đăng kí / Đăng nhập</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="header__search__box">
+                        <div class="search__container">
+                            <input type="text" placeholder="Search">
+                            <button><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>    
+                    </div>
+                </div>
+
+                <div class="header__cart">
+                    <div class="cart__content" id="cart__content">
+                        <a href="">
+                            <i class="fa fa-shopping-cart" aria-hidden="true" id="cart"></i>
+                        </a>
+                        <div class="more__product">
+                            <div class="product__iteam">
+                                <div class="iteam__img">
+                                    <img src="./image/logo/logo-meat.png" alt="">
+                                </div>
+                                <div class="iteam__text">
+                                    <a href="">
+                                        <div class="iteam__text__content">
+                                            <p>cđcdcdcdccdcddcdcdcdcdcdcdcdcdcdc</p>
+                                        </div>
+                                        <div class="iteam__text__price">
+                                            <p>12.000.000 đ</p>
+                                        </div>
+                                    </a>
+                                    
+                                </div>
+                            </div> 
+                        </div>
+
+                        <div class="cart__product-number">
+                            <p id="numberProduct">0</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="header__respoinMore">
+                    
+                    <div class="respoinMore__container">
+                        <div class="icon">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="respoin__showMore">
+                            <div class="arrow-up"></div>
+                            <ul>
+                                <li>
+                                    <i class="fa fa-bell-o" aria-hidden="true"></i>
+                                    <a href="">Thông Báo</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-question-circle-o" aria-hidden="true"></i>
+                                    <a href="">Hỗ Trợ</a> 
+                                </li>
+                                <li class="selectLenguage">
+                                    <i class="fa fa-language" aria-hidden="true"></i>
+                                    <a href="">Ngôn Ngữ</a>
+                                </li>
+                                <li>
+                                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                                    <a href="./login.html">Đăng kí / Đăng nhập</a>  
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="main__content">
+            
+            <div class="banner__container">
+                <div class="banner__content">
+                    <div class="banner__convert banner__convert-left" id="convert-left">
+                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="banner__move">
+                        <div class="banner__image">
+                            <img src="./image/banner/img_1.png" alt="" class="image_" id="image_banner" onclick="change_banner()">
+                        </div>
+                        <div class="carousel-dot">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="banner__convert banner__convert-right">
+                        <i class="fa fa-chevron-right" aria-hidden="true" id="convert-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="category__container">
+                <div class="category__content">
+                    <!-- <ul>
+                        <li><a href="">Tất Cả</a></li>
+                        <li><a href="">Điện Thoại</a></li>
+                        <li><a href="">Máy Ảnh</a></li>
+                        <li><a href="">Máy Quay Phim</a></li>
+                        <li><a href="">Đồng Hồ</a></li>
+                    </ul> -->
+                    <p>Danh Mục Sản Phẩm</p>
+                </div>
+            </div>
+
+            <div class="main__product">
+                <div class="product__container">
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/photo.webp" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>      
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_2.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>            
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_3.webp" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>        
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="iteam__container">
+                        <div class="iteam__content">
+                            <div class="iteam__image">
+                                <img src="./image/product/img_4.jpg" alt="">
+                                <div class="iteam__buy-container">
+                                    <div class="iteam__buy">
+                                        <div class="iteam__buy--buyNow buy_user">
+                                            <p>Buy Now</p>
+                                        </div>
+                                        <div class="iteam__buy--addCart buy_user">
+                                            <p class="buyNow">Add Cart</p>
+                                        </div>
+                                    </div>
+                                </div>                           
+                            </div>
+                            <div class="iteam__text-content">
+                                <a href="./product.html">
+                                    <div class="iteam__text-product">
+                                        <p>product real 100% product real 100%  product real 100% product real 100%</p>
+                                    </div>
+                                    <div class="iteam__text-price">
+                                        <p>12.000.000 d</p>
+                                    </div>
+                                </a>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+
+                <!--  -->
+
+                <!-- <div class="product__view-more">
+                    <div class="product__view">
+                        <p>Xem Thêm</p>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+
+
+
+
+        <footer>
+            <div class="footer__container">
+                <div class="footer__container-content">
+                    <div class="footer__contactInfo">
+                        <div class="contactInfo__title">
+                            <p>Thông Tin Liên Hệ</p>
+                        </div>
+                        <div class="contactInfo__content">
+                            <h3>Công Ty Cổ Phần Kĩ Thuật Việt Nam</h3>
+
+                            <ul>
+                                <li>
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <p>Hải Xuân - Hải hậu - Nam Định</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    <p>thenam2kx@gmail.com</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                    <p>0363560798</p>
+                                </li>
+                                <li>
+                                    <p>Giấy phép ĐKKD số...........</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="footer__product">
+                        <div class="ft_product__title">
+                            <p>Sản Phẩm</p>
+                        </div>
+                        <div class="ft_product__content">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <p>Máy ảnh</p>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <p>Máy quay phim</p>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <p>Thiết bị gia dụng</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <p>Thể thao & du lịch</p>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <p>Ôt & xe máy & xe đạp</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                        <p>Thời trang nam & nữ</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="footer__policy">
+                        <div class="ft_policy__title">
+                            <p>Chính Sách</p>
+                        </div>
+                        <div class="ft_policy__content">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <p>Chính sách thanh toán</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <p>Chính sách bảo hành</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <p>Chính sách đổi trả hàng</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <p>Chính sách vận chuyển</p>
+                                </li>
+                                <li>
+                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                    <p>Chính sách bảo mật</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="footer__connect">
+                        <div class="ft_connect__title">
+                            <p>Kết Nối</p>
+                        </div>
+                        <div class="ft_connect__content">
+
+                            <a href="https://www.facebook.com/">
+                                <div class="ft_connect__iteam">
+                                    <div class="iteam__icon">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="iteam__link">
+                                        <p>https://www.facebook.com/</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://twitter.com/thenam2kx">
+                                <div class="ft_connect__iteam">
+                                    <div class="iteam__icon">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="iteam__link">
+                                        <p>https://twitter.com/thenam2kx</p>
+                                    </div>
+                                </div>
+                            </a>
+                            
+                            <a href="https://www.instagram.com/thenam2kx.vn/">
+                                <div class="ft_connect__iteam">
+                                    <div class="iteam__icon">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="iteam__link">
+                                        <p>https://www.instagram.com/thenam2kx.vn/</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="https://mail.google.com/mail/u/0/#inbox">
+                                <div class="ft_connect__iteam">
+                                    <div class="iteam__icon">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="iteam__link">
+                                        <p>https://mail.google.com/mail/u/0/#inbox</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ft_license">
+                    <div class="ft_license__content">
+                        <p>@ Bản quyền thuộc về Thenam2kx@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="ft_showInfor">
+                    <div class="ft_showInfor__close">
+                        <div class="close__icon">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="ft_showInfor__content">
+                        <p>dhbhtdbfrbgBản quyền thuộc về 
+                            Thenam2kx@gmail.co Bản quyền thuộc về Thenam2kx@gmail.co 
+                            Bản quyền thuộc về Thenam2kx@gmail.co Bản quyền thuộc về Thenam2kx@gmail.cod</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>
