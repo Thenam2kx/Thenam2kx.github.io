@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     height: 90px;
     width: 100%;
@@ -233,7 +237,7 @@ header{
     
 }
 .cart__content{
-    height: 50px;
+    height: 100%;
     width: 50px;
     position: relative;
 }
@@ -363,7 +367,7 @@ footer{
 .footer__container-content{
     height: 100%;
     width: 1200px;
-    min-width: 1200px;
+    /* min-width: 1200px; */
     margin: 0 auto;
     display: flex;
 }

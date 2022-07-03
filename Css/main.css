@@ -10,7 +10,7 @@
     height: auto;
     width: 90%;
     margin: 100px auto 0;
-    min-width: 1200px;
+    /* min-width: 1200px; */
 }
 
 .banner__container{
@@ -39,7 +39,7 @@
 .banner__image > img{
     height: 100%;
     width: 100%;
-    min-width: 1000px;
+    /* min-width: 1000px; */
 }
 
 /* thanh truyen banner */
