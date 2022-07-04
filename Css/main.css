@@ -148,9 +148,9 @@
     border-bottom: .1px solid rgb(189, 189, 189);
 }
 .iteam__content{
-    height: 100%;
-    width: 100%;
-    padding: 0 20px;
+    height: auto;
+    width: auto;
+    /* padding: 0 20px; */
 }
 .iteam__image{
     height: 250px;
