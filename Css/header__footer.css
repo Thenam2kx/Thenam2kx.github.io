@@ -198,9 +198,12 @@ header{
 /* =================================================================================================================== */
 
 .header__search__box{
-    height: 50px;
+    height: 60px;
     width: 100%;
-    padding: 5px 0;
+    /* padding: 5px 0; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .search__container{
     height: 35px;
@@ -367,7 +370,6 @@ footer{
 .footer__container-content{
     height: 100%;
     width: 1200px;
-    /* min-width: 1200px; */
     margin: 0 auto;
     display: flex;
 }
