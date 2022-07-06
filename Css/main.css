@@ -10,7 +10,7 @@
     height: auto;
     width: 90%;
     margin: 100px auto 0;
-    /* min-width: 1200px; */
+    min-width: 1200px;
 }
 
 .banner__container{
@@ -143,6 +143,7 @@
 .iteam__container{
     height: 350px;
     width: calc(100%/4);
+    /* width: 350px; */
     padding: 5px;
     border-left: .5px solid rgb(189, 189, 189);
     border-bottom: .1px solid rgb(189, 189, 189);

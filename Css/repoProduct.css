@@ -1,3 +1,121 @@
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
+    /* header{
+        display: none;
+    } */
+
+    .Product__main{
+        padding: 10px 0;
+    }
+    .product__container{
+        width: 100%;
+    }
+    .product__location{
+        display: none;
+    }
+
+    .product__card{
+        display: block;
+        height: auto;
+    }
+
+
+    .product__card-image{
+        margin: 0 auto;
+        padding-bottom: 10px;
+        width: 300px;
+    }
+
+    .image__show{
+        height: 300px;
+        width: 300px;
+       
+    }
+    .image__show > img{
+        border-radius: 5px
+    }
+
+    .imgae__list{
+        display: none;
+    }
+
+
+/* ============================================================================ */
+
+    .product__card-infor{
+        width: 100%;
+    }
+
+/* ============================================================================ */
+
+    .card__buy{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 50px;
+        width: 100%;
+        /* padding: 10px 0; */
+        background-color: aqua;
+        justify-content: space-around;
+    }
+    .chat{
+        display: block;
+        color: white;
+        line-height: 30px;
+        text-align: center;
+        flex: 1;
+    }
+
+    .card__buyXXX{
+        height: 100%;
+        /* width: calc(100% / 3);     */
+        padding: 10px;
+        margin: 0;
+        border-radius: unset;
+        border-left: .5px solid red;
+        font-size: 15px;
+    }
+
+
+    .addCard{
+        flex: 2;
+        display: block;
+        text-align: center;
+    }
+
+    .buyNow{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 2;
+    }
+    .buyNow > p{
+        text-align: center;
+        line-height: unset;
+    }
     
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+/* ============================================================================ */
+
+
+
+
+
+
 }
