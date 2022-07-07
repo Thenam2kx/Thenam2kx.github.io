@@ -39,7 +39,6 @@
 .banner__image > img{
     height: 100%;
     width: 100%;
-    /* min-width: 1000px; */
 }
 
 /* thanh truyen banner */
@@ -143,7 +142,6 @@
 .iteam__container{
     height: 350px;
     width: calc(100%/4);
-    /* width: 350px; */
     padding: 5px;
     border-left: .5px solid rgb(189, 189, 189);
     border-bottom: .1px solid rgb(189, 189, 189);
@@ -194,6 +192,11 @@
     line-height: 50px;
     color: rgb(0, 0, 0);
     cursor: pointer;
+}
+
+.iteam__buy--addCart{
+    border-left: .1px solid #919191;
+    /* opacity: .2; */
 }
 
 /* =================================================================================================================== */
